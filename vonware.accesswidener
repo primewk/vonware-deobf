@@ -1,0 +1,6 @@
+accessWidener	v2	intermediary
+accessible	field	net/minecraft/class_310	field_1752	I
+accessible	field	net/minecraft/class_2824	field_12870	I
+accessible	method	net/minecraft/class_2824$class_5906	method_34211	()Lnet/minecraft/class_2824$class_5907;
+accessible	class	net/minecraft/class_2824$class_5907
+accessible	field	net/minecraft/class_2824	field_12871	Lnet/minecraft/class_2824$class_5906;

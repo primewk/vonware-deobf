@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.spikestinger.Vonware.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AccessorLivingEntity",
+    "MixinClientConnection"
+  ],
+  "client": [
+    "AccessorClientWorld",
+    "MixinClientPlayerEntity",
+    "MixinClientPlayerInteractionManager",
+    "MixinClientPlayNetworkHandler",
+    "MixinEntity",
+    "MixinInGameHud",
+    "MixinKeyboard",
+    "MixinLivingEntity",
+    "MixinRenderTickCounter",
+    "MixinWorldRenderer",
+    "TextVisitFactoryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "Vonware-refmap.json"
+}
